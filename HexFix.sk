@@ -1,0 +1,5 @@
+function hex(rgb: text) :: text:
+    set {_m::*} to regex split {_rgb} at "(?<=&#[0-9a-fA-F]{6})"
+    set {_u} to join {_m::*} by ">"
+    replace all "&#" in {_u} with "<#"
+    return formatted {_u}
