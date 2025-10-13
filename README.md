@@ -6,3 +6,8 @@ Fixes how skbee sees hex codes (base skript can't use hex) instead of "<#FF0000>
 dependencies:
 skript
 skbee (fixes how skbee does it) 
+
+how to:
+send hex("#FF0000 welcome to the server") to player
+hex("<your text>")
+hex(player's prefix) 
