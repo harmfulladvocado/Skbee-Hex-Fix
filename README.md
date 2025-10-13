@@ -12,7 +12,7 @@ skbee
 
 
 
-how to:
+how to use it:
 
 send hex("#FF0000 welcome to the server") to player
 
