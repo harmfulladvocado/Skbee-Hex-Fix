@@ -6,9 +6,7 @@ Fixes how skbee sees hex codes (base skript can't use hex) instead of "<#FF0000>
 
 dependencies:
 
-skript
-
-skbee
+skript and skbee
 
 
 
