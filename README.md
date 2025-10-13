@@ -8,6 +8,11 @@ skript and
 skbee
 
 how to:
+
 send hex("#FF0000 welcome to the server") to player
+
 hex("<your text>")
+
 hex(player's prefix) 
+
+
