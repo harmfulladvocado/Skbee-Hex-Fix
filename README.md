@@ -1,21 +1,30 @@
-spigot:
-https://www.spigotmc.org/resources/hex-skbee-fix-function.129482/
+# Hex SkBee Fix Function
 
-Fixes how skbee sees hex codes (base skript can't use hex) instead of "<#FF0000>" it uses the normal "#FF0000" so you can use your prefixes with hex colors in skript
+[SpigotMC Resource Page](https://www.spigotmc.org/resources/hex-skbee-fix-function.129482/)
 
+---
 
-dependencies:
+## What is this?
 
-skript and skbee
+This function fixes how SkBee handles hex color codes.  
+Base Skript can't use hex like `<#FF0000>` — SkBee uses `#FF0000` instead.  
+Now you can use hex prefixes and colors directly in Skript.
 
+---
 
+## Dependencies
 
-how to use it:
+- **Skript**
+- **SkBee**
 
+---
+
+## How to Use
+
+```skript
 send hex("#FF0000 welcome to the server") to player
+send hex(player's prefix) to player
 
+# Generic:
 hex("<your text>")
-
-hex(player's prefix) 
-
-
+```
